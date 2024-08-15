@@ -1,0 +1,55 @@
+.cursos-container {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(236, 193, 74);
+    border: 2px solid;
+    border-radius: 20px;
+
+}
+
+.cursos-title {
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.cursos-intro {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cursos-subtitle {
+    font-size: 2rem;
+
+    margin: 20px 0;
+}
+
+.cursos-list {
+
+    list-style-type: none;
+    padding: 0;
+}
+
+.cursos-list li {
+    color: black;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.cursos-service-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.cursos-service-description {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.cursos-conclusion {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}

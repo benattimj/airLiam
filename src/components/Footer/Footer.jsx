@@ -17,11 +17,11 @@ const quickLinks = [
 
   {
     path: "/cars",
-    display: "Car Listing",
+    display: "Aviões a venda",
   },
   {
     path: "/blogs",
-    display: "Blog",
+    display: "Detalhes dos aviões",
   },
 
   {
