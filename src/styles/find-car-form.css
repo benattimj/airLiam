@@ -1,6 +1,6 @@
 .find__cars-left {
-  background: linear-gradient(rgb(249, 168, 38, 0.9), rgb(249, 168, 38, 0.9)),
-    url("../assets/all-images/toyota-offer-2.png");
+  background: linear-gradient(rgba(214, 212, 208, 0.9), rgba(241, 221, 187, 0.9)),
+    url("../assets/all-images/plane-img/cessna172.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

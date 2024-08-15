@@ -30,7 +30,7 @@ const BlogDetails = () => {
 
                 <div className="blog__publisher d-flex align-items-center gap-4 mb-4">
                   <span className="blog__author">
-                    <i class="ri-user-line"></i> {blog.author}
+                    <i className="ri-user-line"></i> {blog.author}
                   </span>
 
                   <span className=" d-flex align-items-center gap-1 section__description">
@@ -42,11 +42,12 @@ const BlogDetails = () => {
                   </span>
                 </div>
 
-                <p className="section__description">{blog.description}</p>
+                <div 
+                  className="section__description" 
+                  dangerouslySetInnerHTML={{ __html: blog.quote }} 
+                />
                 <h6 className="ps-5 fw-normal">
-                  <blockquote className="fs-4">{blog.quote}</blockquote>
                 </h6>
-                <p className="section__description">{blog.description}</p>
               </div>
 
               <div className="comment__list mt-5">
