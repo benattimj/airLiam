@@ -15,16 +15,20 @@ const navLinks = [
   },
   {
     path: "/cars",
-    display: "Aeronaves",
+    display: "Vendas",
   },
 
   {
     path: "/blogs",
-    display: "Blog",
+    display: "Aeronaves",
   },
   {
     path: "/contact",
     display: "Contato",
+  },
+  {
+    path: "/cursos",
+    display: "Certificações",
   },
 ];
 

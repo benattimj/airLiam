@@ -6,7 +6,7 @@ import AboutSection from "../components/UI/AboutSection";
 import { Container, Row, Col } from "reactstrap";
 import BecomeDriverSection from "../components/UI/BecomeDriverSection";
 
-import driveImg from "../assets/all-images/drive.jpg";
+import driveImg from "../assets/all-images/plane-img/seneca02.jpg";
 import OurMembers from "../components/UI/OurMembers";
 import "../styles/about.css";
 
@@ -28,21 +28,16 @@ const About = () => {
             <Col lg="6" md="6" sm="12">
               <div className="about__page-content">
                 <h2 className="section__title">
-                  We Are Committed To Provide Safe Ride Solutions
+                Profissionais qualificados
                 </h2>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
-                </p>
+                  Trazendo o melhor conteudo e informação relacionado a aeronaves como manuais,  
+                  configurações, mercado, manutenção e muito mais.
+                  </p>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                  Um time inteiro pronto para acessorar e garantir qualidade e segurança no seu negócio.
                 </p>
 
                 <div className=" d-flex align-items-center gap-3 mt-4">
@@ -51,8 +46,8 @@ const About = () => {
                   </span>
 
                   <div>
-                    <h6 className="section__subtitle">Need Any Help?</h6>
-                    <h4>+00123456789</h4>
+                    <h6 className="section__subtitle">Precisa de alguma ajuda?</h6>
+                    <h4>+553499047919</h4>
                   </div>
                 </div>
               </div>
@@ -67,8 +62,8 @@ const About = () => {
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
-              <h6 className="section__subtitle">Experts</h6>
-              <h2 className="section__title">Our Members</h2>
+              <h6 className="section__subtitle">Especialistas</h6>
+              <h2 className="section__title">Nossa equipe</h2>
             </Col>
             <OurMembers />
           </Row>

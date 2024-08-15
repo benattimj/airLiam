@@ -8,34 +8,23 @@ const FindCarForm = () => {
     <Form className="form">
       <div className=" d-flex align-items-center justify-content-between flex-wrap">
         <FormGroup className="form__group">
-          <input type="text" placeholder="Qual Cidade" required />
+          <input type="text" placeholder="Qual modelo" required />
         </FormGroup>
 
         <FormGroup className="form__group">
-          <input type="text" placeholder="To address" required />
+          <input type="text" placeholder="Tipo" required />
+          
         </FormGroup>
 
-        <FormGroup className="form__group">
-          <input type="date" placeholder="Data da visita" required />
-        </FormGroup>
-
-        <FormGroup className="form__group">
-          <input
-            className="journey__time"
-            type="time"
-            placeholder="Journey time"
-            required
-          />
-        </FormGroup>
         <FormGroup className="select__group">
           <select>
-            <option value="ac">AC Car</option>
-            <option value="non-ac">Non AC Car</option>
+            <option value="ac">Aviões</option>
+            <option value="non-ac">Helicopteros</option>
           </select>
         </FormGroup>
 
         <FormGroup className="form__group">
-          <button className="btn find__car-btn">Find Car</button>
+          <button className="btn find__car-btn">Buscar</button>
         </FormGroup>
       </div>
     </Form>

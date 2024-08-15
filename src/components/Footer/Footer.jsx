@@ -43,22 +43,16 @@ const Footer = () => {
                 <Link to="/home" className=" d-flex align-items-center gap-2">
                   <i class="ri-car-line"></i>
                   <span>
-                    AirLiam <br /> Service
+                    AirLiam <br /> Services
                   </span>
                 </Link>
               </h1>
             </div>
-            <p className="footer__logo-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, distinctio, itaque reiciendis ab cupiditate harum ex
-              quam veniam, omnis expedita animi quibusdam obcaecati mollitia?
-              Delectus et ad illo recusandae temporibus?
-            </p>
           </Col>
 
           <Col lg="2" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer__link-title">Quick Links</h5>
+              <h5 className="footer__link-title">Facil Acessos</h5>
               <ListGroup>
                 {quickLinks.map((item, index) => (
                   <ListGroupItem key={index} className="p-0 mt-3 quick__link">
@@ -71,20 +65,20 @@ const Footer = () => {
 
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer__link-title mb-4">Head Office</h5>
+              <h5 className="footer__link-title mb-4">Escritório</h5>
               <p className="office__info">1000 SU, Minas Gerais, Brasil</p>
               <p className="office__info">Telefone: +5534999047919</p>
 
               <p className="office__info">Email: benatti@gmail.com</p>
 
-              <p className="office__info">Office Time: 8am - 5pm</p>
+              <p className="office__info">Horario do escritório: 8am - 5pm</p>
             </div>
           </Col>
 
           <Col lg="3" md="4" sm="12">
             <div className="mb-4">
-              <h5 className="footer__link-title">Newsletter</h5>
-              <p className="section__description">Subscribe our newsletter</p>
+              <h5 className="footer__link-title">Novidades</h5>
+              <p className="section__description">Se increva para novidades!</p>
               <div className="newsletter">
                 <input type="email" placeholder="Email" />
                 <span>
