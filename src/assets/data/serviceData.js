@@ -3,42 +3,42 @@ const serviceData = [
     id: 1,
     title: "City Transfer",
     icon: "ri-map-pin-2-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Realoque sua aeroanve aonde quer que esteja, com um dos nossos pilotos profissionais.",
   },
 
   {
     id: 2,
-    title: "Whole  City Tour",
+    title: "Venda de Aeronaves",
     icon: "ri-community-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Oferecemos uma plataforma para a venda de aeronaves com total suporte na negociação e processos legais. Encontre compradores qualificados e obtenha o melhor valor para sua aeronave.",
   },
 
   {
     id: 3,
-    title: "Unlimited Miles Car Rental",
+    title: "Manutenção e Inspeção",
     icon: "ri-roadster-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Garantimos a operação segura de sua aeronave com serviços de manutenção preventiva e corretiva. Nossos técnicos certificados realizam inspeções detalhadas e reparos necessários.",
   },
 
   {
     id: 4,
-    title: "Fast & Easy Booking",
+    title: "Configurações Personalizadas",
     icon: "ri-timer-flash-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Personalize sua aeronave com configurações e melhorias conforme suas preferências. Oferecemos serviços de customização para atender a todas as suas necessidades operacionais e de conforto.",
   },
 
   {
     id: 5,
-    title: "Many Pickup Locations",
+    title: "Informações e Consultoria Técnica",
     icon: "ri-map-pin-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Acesse informações detalhadas sobre aeronaves e serviços associados. Nossa equipe oferece consultoria técnica para ajudar na tomada de decisões informadas sobre compra, venda e manutenção.",
   },
 
   {
     id: 6,
-    title: "Airport Transfer",
+    title: "Suporte Pós-Venda",
     icon: "ri-flight-takeoff-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Receba suporte contínuo após a compra da sua aeronave. Oferecemos serviços de assistência técnica e manutenção, garantindo que sua aeronave permaneça em excelentes condições",
   },
 ];
 
