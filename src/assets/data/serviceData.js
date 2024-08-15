@@ -3,7 +3,7 @@ const serviceData = [
     id: 1,
     title: "City Transfer",
     icon: "ri-map-pin-2-line",
-    desc: "Realoque sua aeroanve aonde quer que esteja, com um dos nossos pilotos profissionais.",
+    desc: "Realoque sua aeronave aonde quer que esteja, com um dos nossos pilotos profissionais.",
   },
 
   {
@@ -36,9 +36,9 @@ const serviceData = [
 
   {
     id: 6,
-    title: "Suporte Pós-Venda",
+    title: "Manuais & Instruções",
     icon: "ri-flight-takeoff-line",
-    desc: "Receba suporte contínuo após a compra da sua aeronave. Oferecemos serviços de assistência técnica e manutenção, garantindo que sua aeronave permaneça em excelentes condições",
+    desc: "Oferecemos uma ampla gama de manuais, cursos especializados, simulados, certificações e aulas particulares de proficiência em inglês para apoiar seu desenvolvimento e excelência na aviação.",
   },
 ];
 
