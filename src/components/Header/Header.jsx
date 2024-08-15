@@ -76,7 +76,7 @@ const Header = () => {
                 <h1>
                   <Link to="/home" className=" d-flex align-items-center gap-2">
              
-                    <span>
+                    <span>Air Liam
                     Tudo sobre <br /> Aeronaves
                     </span>
                   </Link>
@@ -116,7 +116,7 @@ const Header = () => {
             >
               <button className="header__btn btn ">
                 <Link to="/contact">
-                  <i class="ri-phone-line"></i> Ligue Agora
+                  <i class="ri-phone-line"></i> Contate-nos
                 </Link>
               </button>
             </Col>
