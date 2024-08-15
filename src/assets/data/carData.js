@@ -1,12 +1,12 @@
 // import all images from assets/images directory
-import img01 from "../all-images/plane-img/cesna01.jpg";
-import img02 from "../all-images/cars-img/offer-toyota.png";
-import img03 from "../all-images/cars-img/bmw-offer.png";
-import img04 from "../all-images/cars-img/nissan-offer.png";
-import img05 from "../all-images/cars-img/offer-toyota.png";
-import img06 from "../all-images/cars-img/mercedes-offer.png";
-import img07 from "../all-images/cars-img/toyota-offer-2.png";
-import img08 from "../all-images/cars-img/mercedes-offer.png";
+import img01 from "../all-images/plane-img/c1521.jpeg";
+import img02 from "../all-images/plane-img/c1721.jpeg";
+import img03 from "../all-images/plane-img/c3101.jpeg";
+import img04 from "../all-images/plane-img/b101.jpg";
+import img05 from "../all-images/plane-img/b58.jpg";
+import img06 from "../all-images/plane-img/se12.jpg";
+import img07 from "../all-images/plane-img/king1.jpg";
+import img08 from "../all-images/plane-img/phenon1.jpg";
 
 const carData = [
   {
@@ -15,7 +15,7 @@ const carData = [
     rating: 112,
     carName: "Cessna 152",
     imgUrl: img01,
-    model: "Model 3",
+    model: "Model 1972",
     price: 250,
     speed: "20kmpl",
     gps: "GPS Navigation",
@@ -31,7 +31,7 @@ const carData = [
     rating: 102,
     carName: "Cessna 172",
     imgUrl: img02,
-    model: "Model-2022",
+    model: "Model-1972",
     price: 850,
     speed: "20kmpl",
     gps: "GPS Navigation",
@@ -47,7 +47,7 @@ const carData = [
     rating: 132,
     carName: "Cessna 310",
     imgUrl: img03,
-    model: "Model-2022",
+    model: "Model-1971",
     price: 1.203,
     speed: "20kmpl",
     gps: "GPS Navigation",
@@ -63,8 +63,8 @@ const carData = [
     rating: 102,
     carName: "Bonanza",
     imgUrl: img04,
-    model: "Model-2022",
-    price: 1.578,
+    model: "Model-1985",
+    price: 3.178,
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
@@ -79,7 +79,7 @@ const carData = [
     rating: 94,
     carName: "Baron",
     imgUrl: img05,
-    model: "Model-2022",
+    model: "Model-1991",
     price: 2.454,
     speed: "20kmpl",
     gps: "GPS Navigation",
@@ -95,7 +95,7 @@ const carData = [
     rating: 119,
     carName: "Seneca 2",
     imgUrl: img06,
-    model: "Model-2022",
+    model: "Model-1973",
     price: 2.385,
     speed: "20kmpl",
     gps: "GPS Navigation",
@@ -111,7 +111,7 @@ const carData = [
     rating: 82,
     carName: "King Air",
     imgUrl: img07,
-    model: "Model 3",
+    model: "Model c90",
     price: 9.799,
     speed: "20kmpl",
     gps: "GPS Navigation",
