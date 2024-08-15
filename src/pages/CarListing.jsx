@@ -29,6 +29,7 @@ const CarListing = () => {
 
             {carData.map((item) => (
               <CarItem item={item} key={item.id} />
+              
             ))}
           </Row>
         </Container>

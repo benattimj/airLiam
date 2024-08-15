@@ -12,18 +12,18 @@ const blogData = [
     time: "9pm",
     imgUrl: img01,
     description: "Com seu desempenho robusto e a capacidade de atender a necessidades de transporte pessoal e negócios,",
-    quote:`
-      <p>O <strong>Piper Seneca V</strong> é a escolha ideal para missões que requerem a confiabilidade e redundância de um avião bimotor. Ideal para voos sobre montanhas, à noite, sobre água ou terrenos inóspitos, o Seneca V oferece a tranquilidade necessária para tais cenários.</p>
-      <p>Se você está em um ponto de sua carreira de piloto onde aspira a desafios de operar um avião multimotor, o Piper Seneca V é a escolha certa. Este avião também se destaca no setor de táxi aéreo e fretamento sob demanda, proporcionando viagens seguras e confiáveis a locais remotos.</p>
-      <h3>Características Principais:</h3>
-      <ul class="aircraft-features">
-        <li><strong>Velocidade Máxima de Cruzeiro:</strong> 197 ktas</li>
-        <li><strong>Alcance:</strong> 826 nm em configurações de potência de longo alcance</li>
-        <li><strong>Altitude Operacional:</strong> 25.000 pés</li>
-        <li><strong>Configuração:</strong> Múltiplas portas de entrada e bagagem</li>
-        <li><strong>Interior:</strong> Conforto de classe cabine</li>
-      </ul>
-      <p>Com seu desempenho robusto e a capacidade de atender a necessidades de transporte pessoal e negócios, o Piper Seneca V é a ferramenta perfeita para voos exigentes.</p>
+    quote:`<p>O <strong>Cessna 152</strong> é um avião leve ideal para treinamento e voos de lazer. Com um design simples e confiável, é perfeito para pilotos iniciantes e voos curtos.</p>
+<p>Este modelo é conhecido por sua facilidade de manuseio e eficiência, tornando-se uma escolha popular para escolas de aviação e entusiastas da aviação leve.</p>
+<h3>Características Principais:</h3>
+<ul class="aircraft-features">
+  <li><strong>Velocidade Máxima de Cruzeiro:</strong> Aproximadamente 150 km/h</li>
+  <li><strong>Alcance:</strong> Aproximadamente 800 km</li>
+  <li><strong>Altitude Operacional:</strong> Até 12.000 pés</li>
+  <li><strong>Configuração:</strong> 2 assentos</li>
+  <li><strong>Interior:</strong> Simples e funcional</li>
+  <li><strong>Tipo de Motor:</strong> Motor de um único cilindro</li>
+</ul>
+<p>Com uma excelente reputação por sua confiabilidade e simplicidade, o Cessna 152 é uma escolha excelente para quem está começando na aviação.</p>
     `
   },
   {

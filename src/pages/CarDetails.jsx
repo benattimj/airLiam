@@ -46,9 +46,10 @@ const CarDetails = () => {
                   </span>
                 </div>
 
-                <p className="section__description">
-                  {singleCarItem.description}
-                </p>
+                <p className="section__description"
+                   dangerouslySetInnerHTML={{ __html: singleCarItem.description }} />
+                  
+              
 
                 <div
                   className=" d-flex align-items-center mt-3"
