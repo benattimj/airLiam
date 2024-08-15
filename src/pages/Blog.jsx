@@ -7,7 +7,7 @@ import BlogList from "../components/UI/BlogList";
 const Blog = () => {
   return (
     <Helmet title="Blogs">
-      <CommonSection title="Blogs" />
+      <CommonSection title="Detalhes das aeronaves" />
       <section>
         <Container>
           <Row>

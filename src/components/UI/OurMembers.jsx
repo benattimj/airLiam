@@ -38,8 +38,8 @@ const OUR__MEMBERS = [
   },
 
   {
-    name: "Jhon Doe",
-    experience: "5 years of experience",
+    name: "Murilo Benatti",
+    experience: "years of experience",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
