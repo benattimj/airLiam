@@ -2,6 +2,16 @@
   border: 1px solid #7c8a9736;
   padding: 20px;
   border-radius: 5px;
+  width: 300px; /* Define a largura fixa */
+  height: 450px; /* Define a altura fixa */
+  box-sizing: border-box; /* Garante que o padding e o border sejam incluídos na largura/altura */
+ 
+}
+.car__img {
+  width: 100%; /* Garante que o contêiner da imagem ocupe toda a largura do card */
+  height: 200px; /* Define uma altura fixa para o contêiner da imagem */
+  overflow: hidden; /* Oculta o conteúdo que ultrapassa o tamanho do contêiner */
+  border-radius: 5px; /* Opicional: Para arredondar os cantos da imagem */
 }
 
 .car__item-info span i {

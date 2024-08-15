@@ -52,62 +52,55 @@ const Testimonial = () => {
           <img src={ava01} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
-            <p className="section__description">Customer</p>
+            <h6 className="mb-0 mt-3">Ronaldo Emityh</h6>
+            <p className="section__description">Cliente</p>
           </div>
         </div>
       </div>
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+        Excelente serviço! A análise crítica fornecida foi fundamental para a compra da minha aeronave. 
+        A atenção aos detalhes e o conhecimento técnico demonstrado me deram total confiança na transação.
+      Altamente recomendado!"
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava02} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
-            <p className="section__description">Customer</p>
+            <h6 className="mb-0 mt-3">Tammy Cohen Silva</h6>
+            <p className="section__description">Parceira</p>
           </div>
         </div>
       </div>
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+        Fiquei impressionado com a precisão das informações na revenda da minha aeronave. O suporte foi personalizado, levando em conta todos os fatores relevantes do mercado. 
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava03} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
-            <p className="section__description">Customer</p>
+            <h6 className="mb-0 mt-3">Paulo Vieira</h6>
+            <p className="section__description">Cliente</p>
           </div>
         </div>
       </div>
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+        A compra da minha aeronave foi muito mais tranquila do que eu imaginava, graças à consultoria especializada que recebi. Cada passo foi bem explicado, e a análise de mercado foi impecável.
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava04} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
-            <p className="section__description">Customer</p>
+            <h6 className="mb-0 mt-3">Marcelo T3</h6>
+            <p className="section__description">Cliente</p>
           </div>
         </div>
       </div>
