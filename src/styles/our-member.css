@@ -1,6 +1,32 @@
 .single__member {
   border: 1px solid #7c8a972d;
-  border-radius: 4px;
+  border-radius: 8px; /* Arredondar um pouco mais os cantos */
+  width: 100%; /* Ajustar conforme necessário */
+  height: 100%; /* Ajustar conforme necessário */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  overflow: hidden; /* Garante que a imagem não ultrapasse os limites */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave para efeitos */
+}
+
+.single__member-img {
+  max-width: 70%; /* Garante que a imagem não ultrapasse o container */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 50%; /* Faz a imagem circular (opcional) */
+  object-fit: cover; /* Faz com que a imagem cubra o container sem distorcer */
+  transition: transform 0.3s ease; /* Transição suave para efeito hover */
+}
+
+.single__member:hover {
+  transform: scale(1.05); /* Leve aumento no tamanho do container ao passar o mouse */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra mais intensa ao passar o mouse */
+}
+
+.single__member-img:hover {
+  transform: scale(1.1); /* Aumento suave da imagem ao passar o mouse */
 }
 
 .single__member-social {

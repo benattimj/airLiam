@@ -47,9 +47,10 @@ const Header = () => {
               <div className="header__top__left">
                 <span>Entre em contato</span>
                 <span className="header__top__help">
+               
                 <a
                 href="https://api.whatsapp.com/send/?phone=5534999047919&text&type=phone_number&app_absent=0"
-                className="header__btn btn"
+                className="btn2"
                 target="_blank"
                 rel="noopener noreferrer"
               > 

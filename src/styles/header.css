@@ -76,9 +76,11 @@
 .header__location-content h6 {
   font-weight: 600;
 }
-
+.btn2{
+  color: white;
+}
 .header__btn {
-  background: #17ce30 !important;
+  background: #00b418 !important;
   padding: 10px 20px;
   border: none;
   outline: none;

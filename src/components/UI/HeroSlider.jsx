@@ -26,7 +26,7 @@ const HeroSlider = () => {
             <h1 className="text-light mb-4">Ganhe acompanhamento no seu processo de aquisição de aeronaves</h1>
 
             <button className="btn reserve__btn mt-4">
-              <Link to="/cars">Agendar Consultoria</Link>
+              <Link to="/contact">Agendar Consultoria</Link>
             </button>
           </div>
         </Container>
@@ -39,7 +39,7 @@ const HeroSlider = () => {
             <h1 className="text-light mb-4">Garanta melhor qualificação no seu tipo.</h1>
 
             <button className="btn reserve__btn mt-4">
-              <Link to="/cars">Agendar Consultoria</Link>
+              <Link to="/contact">Agendar Consultoria</Link>
             </button>
           </div>
         </Container>
@@ -52,7 +52,7 @@ const HeroSlider = () => {
             <h1 className="text-light mb-4">Conhecimento nunca é de mais</h1>
 
             <button className="btn reserve__btn mt-4">
-              <Link to="/cars">Agendar Consultoria</Link>
+              <Link to="/contact">Agendar Consultoria</Link>
             </button>
           </div>
         </Container>
