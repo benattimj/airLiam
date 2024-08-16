@@ -1,3 +1,36 @@
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 250px; /* Altura fixa para os itens do carrossel */
+  padding: 1rem;
+  background-color: #f8f9fa; /* Cor de fundo opcional para o item */
+  border-radius: 8px; /* Arredondar os cantos do item */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra opcional para efeito de profundidade */
+  border-color: border-box; /* Garantir que o padding e border sejam incluídos na largura/altura */
+}
+
+.testimonial img {
+  width: 80px; /* Largura fixa da imagem */
+  height: 80px; /* Altura fixa da imagem */
+  object-fit: cover; 
+  border-radius: 50%; /* Tornar a imagem circular */
+  margin: 0; /*
+}
+
+.testimonial p {
+  font-size: 1rem; /* Tamanho da fonte ajustado */
+  line-height: 1.5rem;
+  margin: 0; /* Remover margens padrão para centralização */
+}
+
+.testimonial h6 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+
 @media only screen and (max-width: 768px) {
   .testimonial p {
     font-size: 0.8rem;
@@ -7,6 +40,8 @@
   .testimonial h6 {
     font-size: 1rem;
   }
+
+
 }
 
 @media only screen and (max-width: 576px) {
