@@ -2,16 +2,31 @@
   border: 1px solid #7c8a9736;
   padding: 20px;
   border-radius: 5px;
-  width: 300px; /* Define a largura fixa */
-  height: 450px; /* Define a altura fixa */
-  box-sizing: border-box; /* Garante que o padding e o border sejam incluídos na largura/altura */
- 
+  width: 320px;
+  height: 400px;
+  /* Define a altura fixa */
+
+  margin: 0 auto;
+  box-sizing: border-box;
+  /* Garante que o padding e o border sejam incluídos na largura/altura */
+
 }
+
 .car__img {
-  width: 100%; /* Garante que o contêiner da imagem ocupe toda a largura do card */
-  height: 200px; /* Define uma altura fixa para o contêiner da imagem */
-  overflow: hidden; /* Oculta o conteúdo que ultrapassa o tamanho do contêiner */
-  border-radius: 5px; /* Opicional: Para arredondar os cantos da imagem */
+  width: 100%;
+  /* Garante que o contêiner da imagem ocupe toda a largura do card */
+  height: 200px;
+  /* Define uma altura fixa para o contêiner da imagem */
+  overflow: hidden;
+  /* Oculta o conteúdo que ultrapassa o tamanho do contêiner */
+  border-radius: 5px;
+  /* Opicional: Para arredondar os cantos da imagem */
+}
+
+
+.car__item-content {
+  margin: 0;
+  padding: 0;
 }
 
 .car__item-info span i {
@@ -36,6 +51,7 @@
 .car__item-btn a:hover {
   color: #fff;
 }
+
 .car__btn-details {
   background: #f9a826;
   border-radius: 0px 4px 4px 0px;
