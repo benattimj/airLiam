@@ -33,17 +33,17 @@ const AboutSection = ({ aboutClass }) => {
                 </p>
 
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Ficha tecnica / Preços
+                  <i class="ri-checkbox-circle-line"></i> Ficha técnica / Preços
                 </p>
               </div>
 
               <div className="about__section-item d-flex align-items-center">
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Encontre aeronave qualquer lugar
+                  <i class="ri-checkbox-circle-line"></i> Encontre aeronaves em qualquer lugar
                 </p>
 
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Cursos
+                  <i class="ri-checkbox-circle-line"></i> Cursos / Certificados
                 </p>
               </div>
             </div>

@@ -15,7 +15,7 @@ const BlogList = () => {
 };
 
 const BlogItem = ({ item }) => {
-  const { imgUrl, title, author, date, description, time } = item;
+  const { imgUrl, title, author, date, description, time , specifications} = item;
 
   return (
     <Col lg="4" md="6" sm="6" className="mb-5">
@@ -25,11 +25,19 @@ const BlogItem = ({ item }) => {
           <Link to={`/blogs/${title}`} className="blog__title">
             {title}
           </Link>
-          <p className="section__description mt-3">
-            {description.length > 100
-              ? description.substr(0, 100)
-              : description}
-          </p>
+         
+
+          {/* Adicionando a seção de especificações */}
+          <div className="blog__specifications mt-3">
+            <h5>Especificações:</h5>
+            <ul className="specification__list">
+              {Object.entries(specifications).map(([key, value]) => (
+                <li key={key} className="specification__item">
+                  <strong>{key.replace(/([A-Z])/g, ' $1')}: </strong> {value}
+                </li>
+              ))}
+            </ul>
+          </div>
 
           <Link to={`/blogs/${title}`} className="read__more">
             Read More
