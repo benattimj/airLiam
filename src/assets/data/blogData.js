@@ -2,9 +2,8 @@ import img01 from "../all-images/plane-img/seneca01.jpg";
 import img02 from "../all-images/plane-img/cesna01.jpg";
 import img03 from "../all-images/plane-img/cessna172.jpg";
 import img04 from "../all-images/plane-img/king350.webp";
-import img05 from "../all-images/plane-img/g650.jpg";
+import img05 from "../all-images/plane-img/g6501.jpg";
 import img06 from "../all-images/plane-img/p12.jpg";
-
 
 const blogData = [
   {
