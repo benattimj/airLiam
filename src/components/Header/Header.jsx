@@ -47,9 +47,17 @@ const Header = () => {
               <div className="header__top__left">
                 <span>Entre em contato</span>
                 <span className="header__top__help">
+                <a
+                href="https://api.whatsapp.com/send/?phone=5534999047919&text&type=phone_number&app_absent=0"
+                className="header__btn btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              > 
                   <i class="ri-phone-fill"></i> + 55 34 999047919
+                  </a>
                 </span>
               </div>
+              
             </Col>
 
             <Col lg="6" md="6" sm="6">
@@ -75,9 +83,9 @@ const Header = () => {
               <div className="logo">
                 <h1>
                   <Link to="/home" className=" d-flex align-items-center gap-2">
-             
+
                     <span>Air Liam
-                    Tudo sobre <br /> Aeronaves
+                      Tudo sobre <br /> Aeronaves
                     </span>
                   </Link>
                 </h1>
@@ -115,9 +123,15 @@ const Header = () => {
               className=" d-flex align-items-center justify-content-end "
             >
               <button className="header__btn btn ">
-                <Link to="/contact">
-                  <i class="ri-phone-line"></i> Contate-nos
-                </Link>
+              <a
+                href="https://api.whatsapp.com/send/?phone=5534999047919&text&type=phone_number&app_absent=0"
+                className="header__btn btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="ri-phone-line"></i> Contate-nos
+              </a>   <Link to="/contact">
+                                  </Link>
               </button>
             </Col>
           </Row>

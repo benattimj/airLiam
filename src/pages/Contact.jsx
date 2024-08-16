@@ -64,6 +64,7 @@ const Contact = () => {
                 </p>
                 <div className=" d-flex align-items-center gap-2">
                   <h6 className="fs-6 mb-0">Phone:</h6>
+                  <a href="https://api.whatsapp.com/send/?phone=5534999047919&text&type=phone_number&app_absent=0" classname='btn btn-prymary'> WhatsApp</a>
                   <p className="section__description mb-0">+5534999047919</p>
                 </div>
 
