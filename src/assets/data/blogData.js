@@ -1,4 +1,10 @@
+
+// Seneca V Fotos
 import img01 from "../all-images/plane-img/seneca01.jpg";
+import img11 from "../all-images/plane-img/senecaInterior.jpg";
+import img21 from "../all-images/plane-img/senecaCo.jpg";
+
+// Cessna 152 Fotos
 import img02 from "../all-images/plane-img/cesna01.jpg";
 import img03 from "../all-images/plane-img/cessna172.jpg";
 import img04 from "../all-images/plane-img/king350.webp";
@@ -6,7 +12,9 @@ import img05 from "../all-images/plane-img/g6501.jpg";
 import img06 from "../all-images/plane-img/p301.jpg";
 import img07 from "../all-images/plane-img/c1.jpg";
 import img08 from "../all-images/plane-img/f7x.jpg";
-import img09 from "../all-images/plane-img/p12.jpg";
+import img12 from "../all-images/plane-img/ph100.jpg";
+import img13 from "../all-images/plane-img/ba36.jpg";
+
 
 const blogData = [
   {
@@ -16,6 +24,9 @@ const blogData = [
     date: "12 Dec, 2020",
     time: "9pm",
     imgUrl: img01,
+    imgUrl1: img11,
+    imgUrl2: img21,
+
     description: `
       O <strong>Piper Seneca V</strong> é uma aeronave bimotor de alta performance, ideal para voos de longa distância e transporte executivo. Com uma cabine espaçosa e moderna, é uma escolha popular para quem busca conforto e eficiência.`,
     specifications: {
@@ -142,7 +153,7 @@ const blogData = [
   {
     id: 10,
     title: "Dassault Falcon 7X",
-    author: "Murilo BJ",
+    author: "Murilo Bj",
     date: "30 Jul, 2024",
     time: "9am",
     imgUrl: img08,
@@ -164,7 +175,7 @@ const blogData = [
     quote: `
       <p>O Falcon 7X é uma obra-prima da engenharia aeronáutica, combinando tecnologia de ponta com um design sofisticado para uma experiência de voo sem igual.</p>
     `,
-},
+  },
   {
     id: 8,
     title: "Bombardier Challenger 350",
@@ -191,33 +202,87 @@ const blogData = [
       <p>Com um design elegante e uma cabine de luxo, o Challenger 350 é a escolha preferida para executivos que buscam eficiência e sofisticação em seus voos.</p>
     `,
 
-},
+  },
 
-{
-  id: 11,
-  title: "Embraer Phenom 300",
-  author: "Murilo BJ",
-  date: "05 Aug, 2023",
-  time: "6pm",
-  imgUrl: img06,
-  description: `
+  {
+    id: 11,
+    title: "Embraer Phenom 300",
+    author: "Murilo BJ",
+    date: "05 Aug, 2023",
+    time: "6pm",
+    imgUrl: img06,
+    description: `
     O <strong>Embraer Phenom 300</strong> é um jato leve altamente eficiente, conhecido por seu desempenho confiável e cabine moderna. Perfeito para viagens curtas e médias com conforto.`,
-  specifications: {
-    velocidadeMaxima: "450 nós",
-    alcance: "1.971 milhas náuticas",
-    altitudeMaxima: "45.000 pés",
-    capacidadeCombustivel: "7.775 libras",
-    numeroAssentos: 9,
-    tipoMotor: "Pratt & Whitney PW535E1",
-  },
-  manufacturerInfo: {
-    fabricante: "Embraer",
-    paisOrigem: "Brasil",
-    anoFabricacao: "2009 - presente",
-  },
-  quote: `
+    specifications: {
+      velocidadeMaxima: "450 nós",
+      alcance: "1.971 milhas náuticas",
+      altitudeMaxima: "45.000 pés",
+      capacidadeCombustivel: "7.775 libras",
+      numeroAssentos: 9,
+      tipoMotor: "Pratt & Whitney PW535E1",
+    },
+    manufacturerInfo: {
+      fabricante: "Embraer",
+      paisOrigem: "Brasil",
+      anoFabricacao: "2009 - presente",
+    },
+    quote: `
     <p>O Phenom 300 é conhecido por sua eficiência e versatilidade, oferecendo uma experiência de voo ágil e confortável para viagens corporativas e pessoais.</p>
   `,
+  },
+
+  {
+    id: 13,
+    title: "Embraer Phenom 100",
+    author: "Sofia Almeida",
+    date: "08 Aug, 2023",
+    time: "3pm",
+    imgUrl: img12,
+    description: `
+    O <strong>Embraer Phenom 100</strong> é um jato leve que oferece uma combinação excepcional de desempenho e economia. Ideal para viagens rápidas e eficientes com conforto.`,
+    specifications: {
+      velocidadeMaxima: "390 nós",
+      alcance: "1.178 milhas náuticas",
+      altitudeMaxima: "41.000 pés",
+      capacidadeCombustivel: "5.028 libras",
+      numeroAssentos: 6,
+      tipoMotor: "Embraer AE300",
+    },
+    manufacturerInfo: {
+      fabricante: "Embraer",
+      paisOrigem: "Brasil",
+      anoFabricacao: "2008 - presente",
+    },
+    quote: `
+    <p>O Phenom 100 é a escolha ideal para quem busca um jato leve com excelente desempenho, eficiência e um interior confortável para viagens de curto e médio alcance.</p>
+  `,
+  },
+
+  {
+    id: 15,
+    title: "Beechcraft Bonanza",
+    author: "Olivia Taylor",
+    date: "18 Aug, 2024",
+    time: "5pm",
+    imgUrl: img13,
+    description: `
+      O <strong>Beechcraft Bonanza</strong> é um monomotor de pistão altamente respeitado, conhecido por sua confiabilidade e versatilidade. Ideal para viagens pessoais e transporte executivo de curto alcance.`,
+    specifications: {
+      velocidadeMaxima: "202 nós",
+      alcance: "1.060 milhas náuticas",
+      altitudeMaxima: "18.500 pés",
+      capacidadeCombustivel: "80 galões",
+      numeroAssentos: 6,
+      tipoMotor: "Continental IO-550-B",
+    },
+    manufacturerInfo: {
+      fabricante: "Beechcraft",
+      paisOrigem: "EUA",
+      anoFabricacao: "1947 - presente",
+    },
+    quote: `
+      <p>O Beechcraft Bonanza é um ícone da aviação leve, oferecendo um equilíbrio excepcional entre desempenho, conforto e economia para pilotos e passageiros.</p>
+    `,
 }
 
 ];

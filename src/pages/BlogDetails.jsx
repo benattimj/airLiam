@@ -42,6 +42,12 @@ const BlogDetails = () => {
             <Col lg="8" md="8">
               <div className="blog__details">
                 <img src={blog.imgUrl} alt={blog.title} className="w-100" />
+
+                <img src={blog.imgUrl1} alt={blog.title} className="w-100" />
+
+                
+                <img src={blog.imgUrl2} alt={blog.title} className="w-100" />
+
                 <h2 className="section__title mt-4">{blog.title}</h2>
 
                 <div className="blog__publisher d-flex align-items-center gap-4 mb-4">
