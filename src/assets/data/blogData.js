@@ -3,7 +3,10 @@ import img02 from "../all-images/plane-img/cesna01.jpg";
 import img03 from "../all-images/plane-img/cessna172.jpg";
 import img04 from "../all-images/plane-img/king350.webp";
 import img05 from "../all-images/plane-img/g6501.jpg";
-import img06 from "../all-images/plane-img/p12.jpg";
+import img06 from "../all-images/plane-img/p301.jpg";
+import img07 from "../all-images/plane-img/c1.jpg";
+import img08 from "../all-images/plane-img/f7x.jpg";
+import img09 from "../all-images/plane-img/p12.jpg";
 
 const blogData = [
   {
@@ -137,32 +140,85 @@ const blogData = [
     `,
   },
   {
-    id: 6,
-    title: "Pilatus PC-12",
-    author: "Murilo Bj",
-    date: "10 Mar, 2021",
-    time: "4pm",
-    imgUrl: img06,
+    id: 10,
+    title: "Dassault Falcon 7X",
+    author: "Murilo BJ",
+    date: "30 Jul, 2024",
+    time: "9am",
+    imgUrl: img08,
     description: `
-      O <strong>Pilatus PC-12</strong> é uma aeronave monomotor turboélice versátil e confiável, ideal para operações em pistas curtas e não pavimentadas. É popular tanto para transporte executivo quanto para missões especiais.`,
+      O <strong>Dassault Falcon 7X</strong> é um jato executivo de grande porte que oferece uma experiência de voo incomparável com eficiência de combustível e desempenho avançado.`,
     specifications: {
-      velocidadeMaxima: "285 nós",
-      alcance: "1.845 milhas náuticas",
-      altitudeMaxima: "30.000 pés",
-      capacidadeCombustivel: "402 galões",
-      numeroAssentos: 9,
-      tipoMotor: "Pratt & Whitney PT6A-67P",
+      velocidadeMaxima: "575 nós",
+      alcance: "5.950 milhas náuticas",
+      altitudeMaxima: "51.000 pés",
+      capacidadeCombustivel: "22.000 libras",
+      numeroAssentos: 14,
+      tipoMotor: "Snecma M88",
     },
     manufacturerInfo: {
-      fabricante: "Pilatus Aircraft",
-      paisOrigem: "Suíça",
-      anoFabricacao: "1994 - presente",
+      fabricante: "Dassault Aviation",
+      paisOrigem: "França",
+      anoFabricacao: "2007 - presente",
     },
     quote: `
-      <p>Com uma combinação única de desempenho, economia e flexibilidade, o Pilatus PC-12 é um dos aviões mais procurados no mercado de aviação geral.</p>
+      <p>O Falcon 7X é uma obra-prima da engenharia aeronáutica, combinando tecnologia de ponta com um design sofisticado para uma experiência de voo sem igual.</p>
     `,
-  },
+},
+  {
+    id: 8,
+    title: "Bombardier Challenger 350",
+    author: "Murilo Benatti",
+    date: "15 Apr, 2023",
+    time: "11am",
+    imgUrl: img07,
+    description: `
+      O <strong>Bombardier Challenger 350</strong> é um jato executivo de médio porte, conhecido pelo seu desempenho excepcional e conforto superior. Ideal para viagens longas e corporativas.`,
+    specifications: {
+      velocidadeMaxima: "540 nós",
+      alcance: "3.200 milhas náuticas",
+      altitudeMaxima: "45.000 pés",
+      capacidadeCombustivel: "14.600 libras",
+      numeroAssentos: 10,
+      tipoMotor: "Honeywell HTF7350",
+    },
+    manufacturerInfo: {
+      fabricante: "Bombardier Aerospace",
+      paisOrigem: "Canadá",
+      anoFabricacao: "2014 - presente",
+    },
+    quote: `
+      <p>Com um design elegante e uma cabine de luxo, o Challenger 350 é a escolha preferida para executivos que buscam eficiência e sofisticação em seus voos.</p>
+    `,
 
+},
+
+{
+  id: 11,
+  title: "Embraer Phenom 300",
+  author: "Murilo BJ",
+  date: "05 Aug, 2023",
+  time: "6pm",
+  imgUrl: img06,
+  description: `
+    O <strong>Embraer Phenom 300</strong> é um jato leve altamente eficiente, conhecido por seu desempenho confiável e cabine moderna. Perfeito para viagens curtas e médias com conforto.`,
+  specifications: {
+    velocidadeMaxima: "450 nós",
+    alcance: "1.971 milhas náuticas",
+    altitudeMaxima: "45.000 pés",
+    capacidadeCombustivel: "7.775 libras",
+    numeroAssentos: 9,
+    tipoMotor: "Pratt & Whitney PW535E1",
+  },
+  manufacturerInfo: {
+    fabricante: "Embraer",
+    paisOrigem: "Brasil",
+    anoFabricacao: "2009 - presente",
+  },
+  quote: `
+    <p>O Phenom 300 é conhecido por sua eficiência e versatilidade, oferecendo uma experiência de voo ágil e confortável para viagens corporativas e pessoais.</p>
+  `,
+}
 
 ];
 

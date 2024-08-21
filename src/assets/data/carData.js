@@ -16,7 +16,7 @@ const carData = [
     carName: "Cessna 152",
     imgUrl: img01,
     model: "Model 1972",
-    price: 250,
+    price: 350,
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
@@ -72,7 +72,7 @@ const carData = [
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Mult Engine",
-    description:`
+    description: `
      <p>O <strong>Cessna 310</strong> é uma aeronave de alto desempenho com motor duplo, ideal para negócios e voos de longa distância. Seu design robusto e velocidade fazem dele uma opção premium para pilotos experientes.</p>
 <p>Com capacidade para mais passageiros e maior alcance, o Cessna 310 é perfeito para viagens rápidas e transporte de passageiros.</p>
 <h3>Características Principais:</h3>
@@ -97,7 +97,7 @@ const carData = [
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Single Engine",
-    description:`
+    description: `
      <p>O <strong>Beechcraft Bonanza</strong> é conhecido por seu desempenho robusto e design elegante. Ideal para voos pessoais e de negócios, oferece um excelente equilíbrio entre velocidade e conforto.</p>
 <p>Com uma cabine confortável e capacidades avançadas, o Bonanza é uma escolha confiável para quem busca desempenho e estilo.</p>
 <h3>Características Principais:</h3>
@@ -111,7 +111,7 @@ const carData = [
 </ul>
 <p>O Beechcraft Bonanza é ideal para quem procura uma aeronave que combine estilo e desempenho para viagens de longo alcance.</p>`
 
-},
+  },
 
   {
     id: 5,
@@ -125,7 +125,7 @@ const carData = [
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Multi Engine",
-    description:`<p>O <strong>Beechcraft Baron</strong> é uma aeronave de alto desempenho com motor duplo, projetada para conforto e eficiência. É ideal para voos de negócios e transporte rápido de passageiros.</p>
+    description: `<p>O <strong>Beechcraft Baron</strong> é uma aeronave de alto desempenho com motor duplo, projetada para conforto e eficiência. É ideal para voos de negócios e transporte rápido de passageiros.</p>
 <p>Seu desempenho superior e espaço interno confortável tornam o Baron uma excelente escolha para quem necessita de uma aeronave rápida e confiável.</p>
 <h3>Características Principais:</h3>
 <ul class="aircraft-features">
@@ -164,7 +164,7 @@ const carData = [
   <li><strong>Tipo de Motor:</strong> Motor de múltiplos cilindros</li>
 </ul>
 <p>Com a combinação de confiabilidade e conforto, o Piper Seneca II é ideal para missões que requerem um avião bimotor robusto e eficiente.</p> `
- },
+  },
 
   {
     id: 7,
@@ -178,7 +178,7 @@ const carData = [
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Multi Engine",
-    description:` <p>O <strong>Beechcraft King Air C90</strong> é uma aeronave turboélice de alto desempenho, ideal para voos corporativos e comerciais. Com sua capacidade para transportar vários passageiros e suas avançadas características de voo, é a escolha perfeita para viagens de longa distância.</p>
+    description: ` <p>O <strong>Beechcraft King Air C90</strong> é uma aeronave turboélice de alto desempenho, ideal para voos corporativos e comerciais. Com sua capacidade para transportar vários passageiros e suas avançadas características de voo, é a escolha perfeita para viagens de longa distância.</p>
 <p>Com um interior confortável e capacidades de voo excepcionais, o King Air C90 é amplamente utilizado para fretamentos e transporte de executivos.</p>
 <h3>Características Principais:</h3>
 <ul class="aircraft-features">
@@ -190,7 +190,7 @@ const carData = [
   <li><strong>Tipo de Motor:</strong> Turboélice</li>
 </ul>
 <p>O King Air C90 combina desempenho robusto com luxo, sendo ideal para viagens corporativas e fretamentos de longa distância.</p>`
-   },
+  },
 
   {
     id: 8,
@@ -204,10 +204,36 @@ const carData = [
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "TurboFan",
-    description:` <p>O <strong>Embraer Phenom 100</strong> é um jato leve de alta performance, projetado para oferecer conforto e eficiência em viagens de longa distância. Com sua tecnologia TurboFan e design moderno, é ideal para voos executivos e
+    description: ` <p>O <strong>Embraer Phenom 100</strong> é um jato leve de alta performance, projetado para oferecer conforto e eficiência em viagens de longa distância. Com sua tecnologia TurboFan e design moderno, é ideal para voos executivos e
 
     `
-   },
+  },
+
+  {
+    id: 7,
+    brand: "Audi",
+    rating: 82,
+    carName: "King Air",
+    imgUrl: img07,
+    model: "Model c90",
+    price: 9.799,
+    speed: "20kmpl",
+    gps: "GPS Navigation",
+    seatType: "Heated seats",
+    automatic: "Multi Engine",
+    description: ` <p>O <strong>Beechcraft King Air C90</strong> é uma aeronave turboélice de alto desempenho, ideal para voos corporativos e comerciais. Com sua capacidade para transportar vários passageiros e suas avançadas características de voo, é a escolha perfeita para viagens de longa distância.</p>
+<p>Com um interior confortável e capacidades de voo excepcionais, o King Air C90 é amplamente utilizado para fretamentos e transporte de executivos.</p>
+<h3>Características Principais:</h3>
+<ul class="aircraft-features">
+  <li><strong>Velocidade Máxima de Cruzeiro:</strong> Aproximadamente 500 km/h</li>
+  <li><strong>Alcance:</strong> Aproximadamente 2.000 km</li>
+  <li><strong>Altitude Operacional:</strong> Até 30.000 pés</li>
+  <li><strong>Configuração:</strong> 6-9 assentos</li>
+  <li><strong>Interior:</strong> Confortável e sofisticado</li>
+  <li><strong>Tipo de Motor:</strong> Turboélice</li>
+</ul>
+<p>O King Air C90 combina desempenho robusto com luxo, sendo ideal para viagens corporativas e fretamentos de longa distância.</p>`
+  }
 ];
 
 export default carData;
