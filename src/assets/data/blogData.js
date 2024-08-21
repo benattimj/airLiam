@@ -6,14 +6,23 @@ import img21 from "../all-images/plane-img/senecaCo.jpg";
 
 // Cessna 152 Fotos
 import img02 from "../all-images/plane-img/cesna01.jpg";
+import img12 from "../all-images/plane-img/c152Int.jpg";
+import img22 from "../all-images/plane-img/c152in2.jpg";
+
+// Cessna 172 Fotos
 import img03 from "../all-images/plane-img/cessna172.jpg";
+import img13 from "../all-images/plane-img/c172int.jpg";
+import img23 from "../all-images/plane-img/c172a.jpg";
+
+
+
 import img04 from "../all-images/plane-img/king350.webp";
 import img05 from "../all-images/plane-img/g6501.jpg";
 import img06 from "../all-images/plane-img/p301.jpg";
 import img07 from "../all-images/plane-img/c1.jpg";
 import img08 from "../all-images/plane-img/f7x.jpg";
-import img12 from "../all-images/plane-img/ph100.jpg";
-import img13 from "../all-images/plane-img/ba36.jpg";
+import img09 from "../all-images/plane-img/ph100.jpg";
+import img10 from "../all-images/plane-img/ba36.jpg";
 
 
 const blogData = [
@@ -53,6 +62,8 @@ const blogData = [
     date: "12 Dec, 2020",
     time: "9pm",
     imgUrl: img02,
+    imgUrl1: img12,
+    imgUrl2: img22,
     description: `
       O <strong>Cessna 152</strong> é um avião leve ideal para treinamento e voos de lazer. Com um design simples e confiável, é perfeito para pilotos iniciantes.`,
     specifications: {
@@ -79,6 +90,9 @@ const blogData = [
     date: "12 Dec, 2020",
     time: "9pm",
     imgUrl: img03,
+    imgUrl1: img13,
+    imgUrl2: img23,
+
     description: `
       O <strong>Cessna 172 Skyhawk</strong> é um dos aviões mais populares na aviação geral. Sua confiabilidade e facilidade de manejo o tornam ideal para treinamento e voos recreativos.`,
     specifications: {
@@ -237,7 +251,7 @@ const blogData = [
     author: "Sofia Almeida",
     date: "08 Aug, 2023",
     time: "3pm",
-    imgUrl: img12,
+    imgUrl: img09,
     description: `
     O <strong>Embraer Phenom 100</strong> é um jato leve que oferece uma combinação excepcional de desempenho e economia. Ideal para viagens rápidas e eficientes com conforto.`,
     specifications: {
@@ -264,7 +278,7 @@ const blogData = [
     author: "Olivia Taylor",
     date: "18 Aug, 2024",
     time: "5pm",
-    imgUrl: img13,
+    imgUrl: img10,
     description: `
       O <strong>Beechcraft Bonanza</strong> é um monomotor de pistão altamente respeitado, conhecido por sua confiabilidade e versatilidade. Ideal para viagens pessoais e transporte executivo de curto alcance.`,
     specifications: {
@@ -283,7 +297,7 @@ const blogData = [
     quote: `
       <p>O Beechcraft Bonanza é um ícone da aviação leve, oferecendo um equilíbrio excepcional entre desempenho, conforto e economia para pilotos e passageiros.</p>
     `,
-}
+  }
 
 ];
 
