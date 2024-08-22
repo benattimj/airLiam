@@ -19,6 +19,13 @@
   object-fit: cover; /* Faz com que a imagem cubra o container sem distorcer */
   transition: transform 0.3s ease; /* Transição suave para efeito hover */
 }
+.single__member-img img.special-img {
+  width: 80%; /* Ajuste o valor conforme necessário */
+  max-width: 77%; /* Defina um limite máximo se necessário */
+  height: auto; /* Mantenha a proporção da imagem */
+  margin: 10px 20px;
+  border-radius: 10px; /* Adicione bordas arredondadas se desejar */
+}
 
 .single__member:hover {
   transform: scale(1.05); /* Leve aumento no tamanho do container ao passar o mouse */
@@ -76,4 +83,12 @@
 .single__member-img:hover .single__member-social {
   top: 0;
   opacity: 1;
+}
+
+
+.section__on{
+  color: black;
+  font-weight: 700;
+  position: relative; /* Necessário para o efeito de sombra */
+  transition: all 0.3s ease; /* Transição suave para todos os efeitos */
 }

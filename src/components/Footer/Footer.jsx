@@ -7,12 +7,12 @@ import "../../styles/footer.css";
 const quickLinks = [
   {
     path: "/about",
-    display: "About",
+    display: "Sobre",
   },
 
   {
     path: "#",
-    display: "Privacy Policy",
+    display: "Politica de privacidade",
   },
 
   {
@@ -26,7 +26,7 @@ const quickLinks = [
 
   {
     path: "/contact",
-    display: "Contact",
+    display: "Contato",
   },
 ];
 
@@ -69,7 +69,7 @@ const Footer = () => {
               <p className="office__info">1000 SU, Minas Gerais, Brasil</p>
               <p className="office__info">Telefone: +5534999047919</p>
 
-              <p className="office__info">Email: benatti@gmail.com</p>
+              <p className="office__info">Email: b@gmail.com</p>
 
               <p className="office__info">Horario do escritório: 8am - 5pm</p>
             </div>
