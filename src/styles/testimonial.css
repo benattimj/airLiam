@@ -12,6 +12,7 @@
 }
 
 .testimonial img {
+  display: grid;
   width: 80px; /* Largura fixa da imagem */
   height: 80px; /* Altura fixa da imagem */
   object-fit: cover; 

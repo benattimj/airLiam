@@ -10,7 +10,7 @@ const OUR__MEMBERS = [
   {
     name: "Murilo Benatti",
     experience: "13 anos de experiência",
-    class: "Piloto Privado de Avião",
+    class: "Piloto de Avião",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
@@ -22,7 +22,7 @@ const OUR__MEMBERS = [
   {
     name: "Mariana Benatti",
     experience: "5 anos de experiência",
-    class: "Consultora Analista",
+    class: "Consultora Analista ",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
